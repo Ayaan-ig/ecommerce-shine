@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import BuyProduct from './pages/BuyProduct'
 import Categorized from './pages/Categorized'
 import Cart from './pages/Cart'
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <HashRouter>
       <Navbar isPortrait={myWidth < 840} isLoggedIn={isLoggedIn} setIsLoggedIn = {setIsLoggedIn}/>
       <Routes>
     
@@ -46,7 +46,7 @@ function App() {
       </Routes>
       
     
-      </BrowserRouter>
+      </HashRouter>
     </>
   ) 
 }
