@@ -31,8 +31,11 @@ function App() {
   },[])
   return (
     <>
+    <p style={{color: 'red'}}>
+      what the fuck is this
+      </p>
 
-      <HashRouter>
+      {/* <HashRouter>
       <Navbar isPortrait={myWidth < 840} isLoggedIn={isLoggedIn} setIsLoggedIn = {setIsLoggedIn}/>
       <Routes>
     
@@ -46,7 +49,7 @@ function App() {
       </Routes>
       
     
-      </HashRouter>
+      </HashRouter> */}
     </>
   ) 
 }
