@@ -6,6 +6,7 @@ import BuyProduct from './pages/BuyProduct'
 import Categorized from './pages/Categorized'
 import Cart from './pages/Cart'
 import Search from './pages/Search'
+import "./App.css"
 
 function App() {
   const [data,setData] = useState(null);
